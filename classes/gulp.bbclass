@@ -8,7 +8,7 @@ DEPENDS += "\
 "
 
 GULP ?= "gulp"
-GULP_TASKS ?= ""
+GULP_TASKS ?= "test"
 GULP_OPTIONS ?= ""
 
 oe_rungulp() {
